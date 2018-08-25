@@ -1,0 +1,92 @@
+		/*common*/
+		* {margin: 0; padding: 0; list-style: none;}
+		.container { width: 1100px; height: 100%; margin: 0 auto;}
+
+		/*main_banner*/
+		#main_banner { width:100%; height: 500px; background-image: url(http://grucompany.co.kr/default/img/main/main_01.jpg); padding-top: 74px; }
+		#main_banner .text_area {width: 100%; height: 100%; display: table;}
+		#main_banner .text_area .inner {display: table-cell; vertical-align: middle; color:white; text-align: center;}
+		#main_banner .text_area .inner p {margin-top:30px;}
+
+		/*header*/  /*포지션 fixed - top 0 값 입력(중요) */
+		header {position: fixed; top:0; width: 100%; padding:20px 0; background-color: black; opacity: 0.8; } 
+		                                                        /*백그라운드 오퍼시티 조절하려고 했더니 전부 다 옅어졌어요 ㅋㅋ*/
+		header ul {float: right;}
+		header ul li {float: left; color: white; margin: 5px 30px;}
+		header ul li:last-child {margin-right: 0;}
+
+		/*portfolio*/
+		#port {width: 100%; height: 100%; padding:100px 0;}
+		#port .container { height: 450px; }
+		#port ul li .img_thumbs {width: 100%; height: 340px; background-size: cover; border:1px solid #bfbfbf; }
+		#port ul li .img_thumbs.img01 {background-image: url(img/img01.jpg);}
+		#port ul li .img_thumbs.img02 {background-image: url(img/img02.jpg);}
+		#port ul li .img_thumbs.img03 {background-image: url(img/img03.jpg);}
+		#port ul li .text_area {text-align: center;}
+		#port ul li .text_area h3 {font-size: 24px; color: #5b87da; margin-top: 20px;}
+		#port ul li {float: left; width: 340px; height: 100%; margin:0 20px;}
+		#port ul li:first-child {margin-left: 0;}
+		#port ul li:last-child {margin-right: 0;}
+
+		/*About Us*/ /*font-weight: bold; */
+		#about {width: 100%; height: 100%; padding:100px 0; border-top: 1px solid #b2b2b2; }
+		#about .container {}
+		#about .container .text_area {width: 100%; height: 100%; display: table;}
+		#about .container .text_area .inner h2  { text-align: center; font-size: 40px;}
+		#about .container .text_area .inner {display: table-cell; vertical-align: middle;}
+		#about .container .text_area .inner img {float: left;}
+
+		/*wide*/
+		#wide {width: 100%; height: 100%; padding:50px 0; background-image: url(img/wide.jpg); background-size: cover; background-repeat: no-repeat;}
+		#wide .container { height: 400px; }
+		#wide .container .contents {padding: 100px; text-align: center; }
+		#wide .container .contents .mini_logo {}
+		#wide .container .contents .text_area { color:white; }
+		#wide .container .contents .text_area h4 {font-size: 40px; padding-bottom: 20px;}
+
+		/*business*/
+		#business { width: 100%; height: 100%; padding:100px 0; }
+		#business .busi_main { margin-bottom: 50px; }
+		#business .busi_main .text_area { width:100%; height: 100px; padding-bottom: 30px; }
+		#business .busi_main .text_area h3 { font-size: 40px; padding-bottom: 20px; text-align: center;}
+		#business .busi_main .text_area p {text-align: center;}
+
+		#business .box1 { width: 100%; height: 350px; }
+		#business .box1 .busi_img01 { width: 30%; height: 350px; background-color: black; float: left; }
+		#business .box1 .box_text { width: 70%; height: 350px; background-color: #0024ac; float: right; }
+
+		#business .box2 { width: 100%; height: 350px; }
+		#business .box2 .busi_img02 { width: 30%; height: 350px; background-color: black; float: right; }
+		#business .box2 .box_text { width: 70%; height: 350px; background-color: #00aeff; float: left; }
+
+		#business .box3 { width: 100%; height: 350px; }
+		#business .box3 .busi_img03 { width: 30%; height: 350px; background-color: black; float: left; }
+		#business .box3 .box_text { width: 70%; height: 350px; background-color: #0024ac; float: right; }
+
+		#business .box4 { width: 100%; height: 350px; }
+		#business .box4 .busi_img04 { width: 30%; height: 350px; background-color: black; float: right; }
+		#business .box4 .box_text { width: 70%; height: 350px; background-color: #00aeff; float: left; }
+
+
+		#business { width: 100%; height: 100%; padding:100px 0; }
+		#business .container {padding-top: 50px;}
+		#business .container .media_box01 { height: 450px; float: left;  }
+		#business .container .media_box01 .media_img01 { width: 540px; height: 270px; background-color: green; margin-bottom: 20px; }
+		#business .container .media_box01 .text_area { width: 540px; }
+		#business .container .media_box01 .text_area h4 { margin-bottom: 10px; font-size: 20px; }
+
+		#business .container .media_box02 { height: 450px; float: right; }
+		#business .container .media_box02 .media_img02 { width: 540px; height: 270px; background-color: green; margin-bottom: 20px; }
+		#business .container .media_box02 .text_area { width: 540px; }
+		#business .container .media_box02 .text_area h4 { margin-bottom: 10px; font-size: 20px; }
+
+		#business { width: 100%; height: 100%; padding:100px 0; }
+		#business .container .media_box03 { height: 450px; float: left; }
+		#business .container .media_box03 .media_img03 { width: 540px; height: 270px; background-color: green; margin-bottom: 20px; }
+		#business .container .media_box03 .text_area { width: 540px; }
+		#business .container .media_box03 .text_area h4 { margin-bottom: 10px; font-size: 20px; }
+
+		#business .container .media_box04 { height: 450px; float: right; }
+		#business .container .media_box04 .media_img04 { width: 540px; height: 270px; background-color: green; margin-bottom: 20px; }
+		#business .container .media_box04 .text_area { width: 540px; }
+		#business .container .media_box04 .text_area h4 { margin-bottom: 10px; font-size: 20px; }
